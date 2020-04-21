@@ -1,0 +1,13 @@
+[package]
+name = "httpdir"
+version = "0.1.0"
+authors = ["Jamey Sharp <jamey@minilop.net>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.13.4"
+futures-util = "0.3.4"
+
+[dependencies.tokio]
+version = "0.2"
+features = ["uds", "macros"]
